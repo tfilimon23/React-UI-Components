@@ -1,11 +1,11 @@
 import React from 'react';
 import './Header.css';
-import HeaderTitle from './components/HeaderComponenets/HeaderTitle';
-import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
+import HeaderTitle from './HeaderTitle';
+import ImageThumbnail from './ImageThumbnail';
 
 const HeaderContainer = () => {
  return (
-     <div>
+     <div className = "">
      <ImageThumbnail />
      <HeaderTitle />
      </div>
