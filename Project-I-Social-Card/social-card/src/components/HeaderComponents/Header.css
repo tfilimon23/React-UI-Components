@@ -1,1 +1,30 @@
 /* All styles for your header Components live here */
+
+.header-title {
+    display: flex;
+    align-items: center;
+    margin-left: 10%; 
+}
+
+.header-content {
+    margin-left: 10%;
+}
+
+
+#lambda-logo{
+    width: 7%;
+    display: inline;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+h5{
+    color: grey;
+    margin-left: 10px;
+}
+
+.date{
+    color: grey;
+    margin-left: 10px;
+}
