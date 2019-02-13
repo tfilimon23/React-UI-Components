@@ -5,19 +5,19 @@ const NumberButton = props => {
     return(
         <div className ="numbers">
         <div className ="top-row">
-            <button>{props.buttonsOnProps.seven}</button>
-            <button>{props.buttonsOnProps.eight}</button>
-            <button>{props.buttonsOnProps.nine}</button>
+            <button className="top-row-btn">{props.buttonsOnProps.seven}</button>
+            <button className="top-row-btn">{props.buttonsOnProps.eight}</button>
+            <button className="top-row-btn">{props.buttonsOnProps.nine}</button>
         </div>
         <div className ="middle-row">
-            <button>{props.buttonsOnProps.four}</button>
-            <button>{props.buttonsOnProps.five}</button>
-            <button>{props.buttonsOnProps.six}</button>
+            <button className="middle-row-btn">{props.buttonsOnProps.four}</button>
+            <button className="middle-row-btn">{props.buttonsOnProps.five}</button>
+            <button className="middle-row-btn">{props.buttonsOnProps.six}</button>
         </div>
         <div className ="bottom-row">
-            <button>{props.buttonsOnProps.one}</button>
-            <button>{props.buttonsOnProps.two}</button>
-            <button>{props.buttonsOnProps.three}</button>
+            <button className="bottom-row-btn">{props.buttonsOnProps.one}</button>
+            <button className="bottom-row-btn">{props.buttonsOnProps.two}</button>
+            <button className="bottom-row-btn" >{props.buttonsOnProps.three}</button>
         </div>
         <div className="zero">
             <button className ="zero-btn">{props.buttonsOnProps.zero}</button>

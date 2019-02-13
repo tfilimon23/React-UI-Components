@@ -16,8 +16,44 @@
     width: 25%;
 }
 
-.op-button{
+.op-btn{
     background-color: #b60808;
+    border: 1px solid gray;
+}
+
+.top-row{
+    width: 75%;
+    
+}
+.top-row-btn{
+    width:33.3%;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.middle-row{
+    width: 75%;
+    
+}
+.middle-row-btn{
+    width: 33.33%;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.bottom-row{
+    width: 75%;
+    
+}
+.bottom-row-btn{
+    width: 33.3%;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
     border: 1px solid gray;
 }
 
