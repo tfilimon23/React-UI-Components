@@ -1,0 +1,74 @@
+.clear{
+    width: 100%;
+    display: flex;
+}
+.clear-btn{
+    width: 75%;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 20px;
+    font-size: 20px;
+    color: #242424;
+}
+
+.op-btn{
+    width:25%;
+    background-color: #b60808;
+    border: 1px solid gray;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.top-row{
+    width: 100%; 
+}
+.top-row-btn{
+    width:25%;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    color: #242424;
+    font-weight: bold;
+}
+
+.middle-row{
+    width: 100%; 
+}
+.middle-row-btn{
+    width: 25%;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    color: #242424;
+    font-weight: bold;
+}
+
+.bottom-row{
+    width: 100%; 
+}
+.bottom-row-btn{
+    width: 25%;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    color: #242424;
+    font-weight: bold;
+}
+
+.zero{
+    width:100%;  
+}
+.zero-btn{
+  width: 75%;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid gray;
+  font-size: 20px;
+  color: #242424;
+  font-weight: bold; 
+}
+
