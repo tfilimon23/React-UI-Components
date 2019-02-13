@@ -20,7 +20,7 @@ const NumberButton = props => {
             <button>{props.buttonsOnProps.three}</button>
         </div>
         <div className="zero">
-            <button>{props.buttonsOnProps.zero}</button>
+            <button className ="zero-btn">{props.buttonsOnProps.zero}</button>
         </div>
         </div>
     );

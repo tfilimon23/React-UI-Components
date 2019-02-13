@@ -4,7 +4,7 @@ import './Button.css';
 const ActionButton = props => {
     return(
         <div className ="clear">
-            <button>{props.buttonsOnProps.clear}</button>
+            <button className ="clear-btn">{props.buttonsOnProps.clear}</button>
         </div>
     );
 }
