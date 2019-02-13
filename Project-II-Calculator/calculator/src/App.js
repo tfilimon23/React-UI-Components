@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 import ActionButton from './components/ButtonComponents/ActionButton';
-import OperatorButton from './components/ButtonComponents/OperatorButton';
 import NumberButton from './components/ButtonComponents/NumberButton';
 
 
@@ -30,13 +29,14 @@ const App = () => {
     <div className="container">
     <CalculatorDisplay buttonsOnProps={Buttons} />
     <ActionButton buttonsOnProps={Buttons} />
-    <OperatorButton buttonsOnProps={Buttons} />
     <NumberButton buttonsOnProps={Buttons} />
     </div>
   );
 };
 
 export default App;
+
+
 
  
 
